@@ -1,0 +1,95 @@
+.foot{
+    background: #15372c;
+    width: 100%;
+    padding: 80px 0 48px;
+    color: #fff;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto auto;
+}
+
+.left{
+    display: flex;
+    text-align: left;
+}
+.right{
+    max-width: 40%;
+    margin: 50px;
+}
+.right p{
+    font-size: 2vw;
+}
+
+.section{
+    margin: 50px 30px;
+}
+.section ul{
+    margin: 20px 0;
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+.section li{
+    margin: 10px 0;
+}
+.section p{
+    color: #008561;
+
+}
+
+.form{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    margin: 30px 0;
+    border-radius: 10px;
+    height: 5vh;
+}
+.small{
+    font-size: 0.7vw;
+}
+
+@media all and (max-width: 768px) {
+    .foot{
+        padding: 40px 0 20px;
+    }
+    .links{
+        flex-direction: column-reverse;
+    }
+
+    .left{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .right{
+        max-width: 100%;
+        margin: 50px;
+    }
+    .right p{
+        font-size: 3vw;
+    }
+
+    .section{
+        margin: 30px 30px;
+    }
+    .section ul{
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .section li{
+        margin: 5px;
+    }
+
+    .small{
+        font-size: 3vw;
+    }
+
+}
